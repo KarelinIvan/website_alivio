@@ -28,6 +28,9 @@ button, input {
 }
 body {
     margin: 0;
+    font-family: var(--font-family-lato);
+    font-weight: 500;
+    font-style: normal;
 }
 .container {
     max-width: 1413px;
