@@ -15,25 +15,46 @@
 	</head>
 	<body>
         <!-- Header -->
-        <header>
+        <header class="header">
             <div class="container">
-                <!-- Logo -->
-                <div class="header-logo">
-                    <img src="img/Logo.svg" alt="Site logo" class="header-logo__img">
+                <div class="header__flex">
+                    <!-- Logo -->
+                    <div class="header-logo">
+                        <img src="img/Logo.svg" alt="Site logo" class="header-logo__img">
+                    </div>
+                    <!-- Navbar -->
+                    <nav class="navbar">
+                        <ul class="navbar__menu">
+                            <li class="navbar__item"><a class="navbar__link" href="#">Why Alivio</a></li>
+                            <li class="navbar__item"><a class="navbar__link" href="#">Solutions</a></li>
+                            <li class="navbar__item"><a class="navbar__link" href="#">Community</a></li>
+                            <li class="navbar__item"><a class="navbar__link" href="#">Pricing</a></li>
+                        </ul>
+                    </nav>
+                    <!-- Auth -->
+                    <div class="auth">
+                        <a class="auth__link" href="#">Sign in</a>
+                    </div>
+                    <!-- Button -->
+                    <div class="btn btn--size-small">
+                        <a class="btn__primary" href="#">Start Trial</a>
+                    </div>
                 </div>
-                <!-- Navbar -->
-                <nav class="navbar">
-                    <ul class="navbar__menu">
-                        <li class="navbar__item"><a class="navbar__link" href="#">Why Alivio</a></li>
-                        <li class="navbar__item"><a class="navbar__link" href="#">Solutions</a></li>
-                        <li class="navbar__item"><a class="navbar__link" href="#">Community</a></li>
-                        <li class="navbar__item"><a class="navbar__link" href="#">Pricing</a></li>
-                    </ul>
-                </nav>
-                <!-- Auth -->
-                <div class="auth">
-                    <a class="auth__link" href="#">Sign in</a>
-                    <a class="auth__link" href="#">Start Trial</a>
+            </div>
+            <!-- Headline -->
+            <div class="headline">
+                <div class="container">
+                    <div class="headline-inner">
+                        <h1 class="headline__title">
+                            Be aware, Manage well.
+                        </h1>
+                        <p class="headline__paragrah">
+                            Everyone experiences stress in different ways. Let Alivio guide you, in a personalized journal experience, to overcome your stress.
+                        </p>
+                        <div class="btn btn--size-large">
+                            <a class="btn__primary" href="#">Find Your Way</a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </header>
