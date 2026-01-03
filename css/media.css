@@ -1,7 +1,4 @@
 @media screen and (max-width: 1440px) {
-    .container {
-        padding: 0 50px;
-    }
     .header-logo {
         margin-right: 120px;
     }
@@ -13,9 +10,6 @@
     }
 }
 @media screen and (max-width: 1024px) {
-    .container {
-        padding: 0 30px;
-    }
     .header-logo {
         margin-right: 85px;
     }
@@ -27,9 +21,6 @@
     }
 }
 @media screen and (max-width: 768px) {
-    .container {
-        padding: 0 20px;
-    }
     .header__flex {
         flex-wrap: wrap;
         flex-direction: column;
@@ -40,9 +31,6 @@
     }
 }
 @media screen and (max-width: 425px) {
-    .container {
-        padding: 0 10px;
-    }
     .navbar__menu {
         flex-direction: column;
     }
