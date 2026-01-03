@@ -98,18 +98,15 @@ body {
     border: 1px solid rgba(1, 153, 109, 1);
     border-radius: 4px;
     text-align: center;
+    color: var(--white-color);
+    font-size: 20px;
 }
 .btn--size-small {
     width: 183px;
     height: 51px;
     padding: 13px 0;
 }
-.btn__primary {
-    color: var(--white-color);
-    font-size: 20px;
-    text-decoration: none;
-}
-.btn__primary:hover {
+.btn:hover {
     color: var(--black-color);
     transition: 0.7s ease;
 }
