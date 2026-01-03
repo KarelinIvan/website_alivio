@@ -1,0 +1,36 @@
+:root {
+    --green-color: rgba(1, 153, 109, 1);
+    --bluish-green: rgba(1, 153, 109, 0.2);
+    --black-color: rgba(0, 0, 0, 1);
+    --signal-black-color: rgba(41, 41, 41, 1);
+    --grey-color: rgba(66, 66, 66, 1);
+    --white-color: rgba(255, 255, 255, 1);
+
+    --font-family-georgia: Georgia, serif;
+    --font-family-lato: 'Lato', sans-serif;
+}
+html {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+img {
+    max-width: 100%;
+    height: 100%;
+}
+h1, h2, h3, h4, h5, h6, p,
+ul, ol, li,
+button, input {
+	padding: 0;
+	margin: 0;
+}
+body {
+    margin: 0;
+}
+.container {
+    max-width: 1413px;
+    width: 100%;
+    margin: 0 auto;
+}
