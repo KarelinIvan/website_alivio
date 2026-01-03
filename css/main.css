@@ -1,0 +1,147 @@
+:root {
+    --green-color: rgba(1, 153, 109, 1);
+    --green-link-color: rgba(1, 153, 109, 1);
+    --bluish-green: rgba(1, 153, 109, 0.2);
+    --black-color: rgba(0, 0, 0, 1);
+    --signal-black-color: rgba(41, 41, 41, 1);
+    --wet-asphalt-color: rgba(72, 72, 72, 1);
+    --grey-color: rgba(66, 66, 66, 1);
+    --white-color: rgba(255, 255, 255, 1);
+
+    --font-family-georgia: Georgia, serif;
+    --font-family-lato: 'Lato', sans-serif;
+}
+html {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+img {
+    max-width: 100%;
+    height: 100%;
+}
+h1, h2, h3, h4, h5, h6, p,
+ul, ol, li,
+button, input {
+	padding: 0;
+	margin: 0;
+}
+li {
+    list-style: none;
+}
+body {
+    margin: 0;
+    font-family: var(--font-family-lato);
+    font-weight: 500;
+    font-style: normal;
+}
+.container {
+    max-width: 1370px;
+    width: 100%;
+    margin: 0 auto;
+}
+/* Header */
+.header {
+    padding-top: 17px;
+}
+.header__flex {
+    display: flex;
+    padding-bottom: 17px;
+}
+/* Logo */
+.header-logo {
+    margin-right: 173px;
+}
+/* Navigation */
+.navbar {
+    padding-top: 14px;
+    margin-right: 285px;
+}
+.navbar__menu {
+    display: flex;
+    gap: 72px;
+}
+.navbar__item {
+    text-decoration: none;
+}
+.navbar__link {
+    text-decoration: none;
+    font-size: 20px;
+    color: var(--signal-black-color);
+}
+.navbar__link:hover {
+    color: var(--green-link-color);
+    transition: 0.7s ease;
+}
+/* Auth */
+.auth {
+    padding-top: 14px;
+    margin-right: 35px;
+}
+.auth__link {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 400;
+    color: var(--black-color);
+}
+.auth__link:hover {
+    color: var(--green-link-color);
+    transition: 0.7s ease;
+}
+/* Button */
+.btn {
+    background: rgba(1, 153, 109, 1);
+    box-sizing: border-box;
+    border: 1px solid rgba(1, 153, 109, 1);
+    border-radius: 4px;
+    text-align: center;
+    color: var(--white-color);
+    font-size: 20px;
+}
+.btn--size-small {
+    width: 183px;
+    height: 51px;
+    padding: 13px 0;
+}
+.btn:hover {
+    /* color: var(--black-color); */
+    transition: 0.5s ease;
+    box-shadow: 0 5px 15px rgba(16, 85, 23, 0.5);
+    cursor: pointer;
+}
+/* Headline */
+.headline {
+    border-top: 1px solid rgba(214, 214, 214, 1);
+    background-image: url(../img/radu-florin.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 895px;
+    margin-bottom: 50px;
+}
+.headline-inner {
+    max-width: 440px;
+    width: 100%;
+}
+.headline__title {
+    padding-top: 175px;
+    font-family: var(--font-family-georgia);
+    font-size: 65px;
+    font-weight: 700;
+    color: var(--green-color);
+    margin-bottom: 33px;
+}
+.headline__paragrah {
+    padding-right: 10px;
+    margin-bottom: 54px;
+    font-size: 20px;
+    line-height: 28px;
+    color: var(--wet-asphalt-color);
+}
+.btn--size-large {
+    width: 227px;
+    height: 65px;
+    padding: 20px 0;
+}
