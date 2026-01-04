@@ -149,6 +149,7 @@ body {
     height: auto;
     padding: 20px 0;
 }
+/* Works */
 .works {
     padding: 125px 0;
     margin-bottom: 100px;
@@ -163,6 +164,7 @@ body {
     display: flex;
     flex-wrap: wrap;
 }
+/* Верхняя часть раздела works*/
 .works-top {
     display: flex;
     gap: 135px;
@@ -186,6 +188,7 @@ body {
     width: 100%;
     padding: 16px 10px 0 0;
 }
+/* Нижняя чать раздела works с карточками */
 .works-bottom {
     display: flex;
     gap: 95px;
@@ -205,7 +208,6 @@ body {
     font-size: 150px;
     font-weight: 400;
     color: var(--bluish-green-color);
-
 }
 .works-bottom__title {
     font-family: var(--font-family-georgia);
@@ -213,6 +215,7 @@ body {
     font-weight: 700;
     color: var(--black-color);
 }
+/* Позиционирования заголовка относительно номера карточки */
 .works-bottom__item:nth-child(1) .works-bottom__title {
     position: relative; 
     top: -60px;
@@ -229,7 +232,6 @@ body {
     position: relative; 
     top: -60px;
     left: 133px;
-    margin-bottom: 3px;
 }
 .works-bottom__paragraph {
     font-size: 20px;
@@ -242,3 +244,4 @@ body {
     height: auto;
     border-radius: 12px;
 }
+/* Presentation */
