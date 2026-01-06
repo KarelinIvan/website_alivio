@@ -1,7 +1,7 @@
 :root {
     --green-color: rgba(1, 153, 109, 1);
     --green-link-color: rgba(1, 153, 109, 1);
-    --bluish-green: rgba(1, 153, 109, 0.2);
+    --bluish-green-color: rgba(1, 153, 109, 0.2);
     --black-color: rgba(0, 0, 0, 1);
     --signal-black-color: rgba(41, 41, 41, 1);
     --wet-asphalt-color: rgba(72, 72, 72, 1);
@@ -20,7 +20,7 @@ html {
 }
 img {
     max-width: 100%;
-    height: 100%;
+    /* height: 100%; */
 }
 h1, h2, h3, h4, h5, h6, p,
 ul, ol, li,
@@ -135,10 +135,11 @@ body {
     color: var(--green-color);
     margin-bottom: 33px;
 }
-.headline__paragrah {
+.headline__paragraph {
     padding-right: 10px;
     margin-bottom: 54px;
     font-size: 20px;
+    font-weight: 400;
     line-height: 28px;
     color: var(--wet-asphalt-color);
 }
@@ -148,3 +149,102 @@ body {
     height: auto;
     padding: 20px 0;
 }
+/* Works */
+.works {
+    padding: 125px 0;
+    margin-bottom: 100px;
+}
+.works__title {
+    font-size: 24px;
+    font-weight: 600;
+    color: var(--grey-color);
+    margin-bottom: 8px;
+}
+.works-inner {
+    display: flex;
+    flex-wrap: wrap;
+}
+/* Верхняя часть раздела works*/
+.works-top {
+    display: flex;
+    gap: 135px;
+    margin-bottom: 85px;
+    flex-wrap: wrap;
+}
+.works-top__title {
+    font-family: var(--font-family-georgia);
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 73px;
+    color: var(--green-color);
+    max-width: 584px;
+    width: 100%;
+}
+.works-top__paragraph {
+    font-size: 20px;
+    font-weight: 500;
+    color: var(--grey-color);
+    line-height: 30px;
+    max-width: 671px;
+    width: 100%;
+    padding: 16px 10px 0 0;
+}
+/* Нижняя чать раздела works с карточками */
+.works-bottom {
+    display: flex;
+    gap: 95px;
+    flex-wrap: wrap;
+}
+.works-bottom__item {
+    max-width: 390px;
+    width: 100%;
+}
+.works-bottom__item:nth-child(2) {
+    padding-top: 285px;
+}
+.works-bottom__item:nth-child(3) {
+    padding-top: 55px;
+}
+.works-bottom__number {
+    font-family: var(--font-family-georgia);
+    font-size: 150px;
+    font-weight: 400;
+    color: var(--bluish-green-color);
+}
+.works-bottom__title {
+    font-family: var(--font-family-georgia);
+    font-size: 30px;
+    font-weight: 700;
+    color: var(--black-color);
+}
+/* Позиционирования заголовка относительно номера карточки */
+.works-bottom__item:nth-child(1) .works-bottom__title {
+    position: relative; 
+    top: -60px;
+    left: 90px;
+    margin-bottom: 3px;
+}
+.works-bottom__item:nth-child(2) .works-bottom__title {
+    position: relative; 
+    top: -57px;
+    left: 80px;
+    margin-bottom: 5px;
+}
+.works-bottom__item:nth-child(3) .works-bottom__title {
+    position: relative; 
+    top: -60px;
+    left: 133px;
+}
+.works-bottom__paragraph {
+    font-size: 20px;
+    line-height: 150%;
+    color: var(--grey-color);
+    margin-bottom: 60px;
+}
+.works-bottom__img {
+    max-width: 390px;
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+}
+/* Presentation */
