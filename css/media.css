@@ -17,12 +17,18 @@
     .presentation-inner {
         flex-wrap: wrap;
     }
+
 }
 @media screen and (max-width: 1280px) {
     .works-bottom {
         margin: 0 auto;
         display: flex;
         flex-direction: column; 
+    }
+    .product-inner {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 0;
     }
 }
 @media screen and (max-width: 1024px) {
@@ -34,6 +40,9 @@
     }
     .navbar__menu {
         gap: 20px;
+    }
+    .product__desc {
+        margin-bottom: 50px;
     }
 }
 @media screen and (max-width: 768px) {
@@ -64,5 +73,9 @@
     }
     .works-bottom__number {
         font-size: 100px;
+    }
+    .user-card {
+        position: static;
+        margin: 0 auto;
     }
 }
