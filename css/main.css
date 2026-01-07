@@ -254,6 +254,7 @@ body {
     padding-left: 15px;
     padding-right: 15px;
     background-color: var(--moderate-bluish-green-color);
+    margin-bottom: 10px;
 }
 .presentation-inner {
     display: flex;
