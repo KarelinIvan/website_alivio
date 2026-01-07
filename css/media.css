@@ -41,6 +41,9 @@
     .navbar__menu {
         gap: 20px;
     }
+    .product__desc {
+        margin-bottom: 50px;
+    }
 }
 @media screen and (max-width: 768px) {
     .header__flex {
