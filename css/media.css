@@ -52,23 +52,6 @@
         margin: 0 auto;
     }
 }
-@media screen and (max-width: 540px) {
-    .works-bottom__item:nth-child(1) .works-bottom__title {
-        position: relative; 
-        top: -60px;
-        left: 0px;
-    }
-.works-bottom__item:nth-child(2) .works-bottom__title {
-        position: relative; 
-        top: -57px;
-        left: 0px;
-    }
-.works-bottom__item:nth-child(3) .works-bottom__title {
-        position: relative; 
-        top: -60px;
-        left: 0px;
-    }
-}
 @media screen and (max-width: 425px) {
     .navbar__menu {
         flex-direction: column;
