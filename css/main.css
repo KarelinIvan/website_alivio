@@ -313,7 +313,8 @@ body {
 .user-card {
     max-width: 296px;
     width: 100%;
-    padding: 24px 0;
+    padding-top: 24px;
+    padding-bottom: 32px;
     background-color: white;
     border-radius: 3px;
     position: relative;
