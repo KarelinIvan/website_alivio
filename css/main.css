@@ -152,7 +152,8 @@ body {
 }
 /* Works */
 .works {
-    padding-top: 145px;
+    padding-top: 120px;
+    margin-bottom: 25px;
 }
 .works__title {
     font-size: 24px;
