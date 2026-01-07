@@ -221,19 +221,19 @@ body {
 .works-bottom__item:nth-child(1) .works-bottom__title {
     position: relative; 
     top: -60px;
-    left: 90px;
+    padding-left: 90px;
     margin-bottom: 3px;
 }
 .works-bottom__item:nth-child(2) .works-bottom__title {
     position: relative; 
     top: -57px;
-    left: 80px;
+    padding-left: 77px;
     margin-bottom: 5px;
 }
 .works-bottom__item:nth-child(3) .works-bottom__title {
     position: relative; 
     top: -60px;
-    left: 133px;
+    padding-left: 133px;
 }
 .works-bottom__paragraph {
     font-size: 20px;
@@ -251,6 +251,8 @@ body {
 .presentation {
     padding-top: 229px;
     padding-bottom: 170px;
+    padding-left: 15px;
+    padding-right: 15px;
     background-color: var(--moderate-bluish-green-color);
 }
 .presentation-inner {
@@ -284,8 +286,9 @@ body {
 .presentation__video {
     max-width: 896px;
     width: 100%;
-    border-radius: 16px;
 }
 .presentation__video video {
     border-radius: 16px;
+    width: 100%;
+    height: auto;
 }
